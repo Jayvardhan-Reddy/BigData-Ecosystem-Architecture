@@ -25,7 +25,25 @@ The various underlying process that takes place during the storage of a file int
 
 - Health status of the file
 
+Please click on the link below to know the execution and flow process
+
 ## 2. SQOOP :octocat:
+
+Used to perform 2 main operations.
+
+- Sqoop Import: 
+  - To ingest data from any source such as traditional databases into hadoop file system HDFS
+
+- Sqoop Export: 
+  - To export data from hadoop file system HDFS to any traditional databases
+
+To support the above two operations internally a CodeGen is used.
+
+- Sqoop CodeGen:
+
+  -  To compile metadata and other relative information into java class file & create a Jar
+
+Please click on the link below to know the execution and flow process
 
 ## 3. HIVE :honeybee:
 
