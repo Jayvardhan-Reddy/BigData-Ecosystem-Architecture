@@ -5,7 +5,7 @@
 ## Internal working of Bigdata and it's ecosystems such as
 - The background process that take place.
 - How the data is distributed across the nodes.
-- Execution after a Job submission.
+- Execution life-cycle on submitting a Job.
 
 ** _Note: Refer the links metioned below under each ecosystem for detailed explanation_ **
 
