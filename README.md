@@ -3,7 +3,7 @@
 <img src="images/Big_data_Ecosystem.png" width="100%" height="400">
 
 ## Internal working of Bigdata and it's ecosystems such as
-- The background process that take place.
+- The background process related to resource allocation, database connection.
 - How the data is distributed across the nodes.
 - Execution life-cycle on submitting a Job.
 
