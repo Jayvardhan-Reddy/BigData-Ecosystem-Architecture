@@ -63,3 +63,13 @@ Please click on the link below to know the execution and flow process
 
 ## 4. SPARK :boom:
 
+It has 3 different variants as part of it.
+
+- RDD (Resilient Distributed Datasets)
+  - Logical Plan (Lineage)
+  - Physical Plan (DAG)
+  
+- DataFrames
+  - Tungsten Engine
+  
+- Datasets
