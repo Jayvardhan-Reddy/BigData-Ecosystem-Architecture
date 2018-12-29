@@ -66,8 +66,9 @@ Please click on the link below to know the execution and flow process
 It has 3 different variants as part of it.
 
 - RDD (Resilient Distributed Datasets)
+  - DAG Scheduler
   - Logical Plan (Lineage)
-  - Physical Plan (DAG)
+  - Physical Plan (Stages)
   
 - DataFrames
   - Tungsten Engine
