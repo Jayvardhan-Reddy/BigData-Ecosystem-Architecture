@@ -1,0 +1,18 @@
+<!--To find the default Location of Warehouse directory.
+Navigate to the below location
+-->
+
+cd /etc/hive/conf
+vi hive-site.xml
+
+<!--Check the below properties -->
+ <property>
+       <name>hive.metastore.uris</name>
+       <value>thrift://nn01.jayserver.com:9083</value>
+ </property>
+
+<!--This property represents the location of Warehouse directory-->
+ <property>
+      <name>hive.metastore.warehouse.dir</name>
+      <value>/apps/hive/warehouse</value>
+ </property>
