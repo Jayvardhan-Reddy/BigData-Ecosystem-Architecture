@@ -1,0 +1,14 @@
+<!-- Default location of hdfs configuration file. -->
+  
+  cd /etc/hadoop/conf
+  vi hdfs-site.xml
+
+  <property>
+     <name>dfs.replication</name>
+     <value>2</value>
+  </property>
+
+  <property>
+     <name>dfs.replication.max</name>
+     <value>50</value>
+  </property>
