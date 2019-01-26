@@ -1,0 +1,17 @@
+<!-- Scheduler used on performing any task. -->
+
+  cd /etc/hadoop/conf
+  vi yarn-site.xml
+
+  <property>
+       <name>yarn.resourcemanager.scheduler.address</name>
+       <value>rm01.jayReddy.com:8030</value>
+  </property>
+
+  <property>
+      <name>yarn.resourcemanager.scheduler.class</name>
+      <value>
+       org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacityScheduler
+      </value>
+      <source>yarn-site.xml</source>
+  </property>
