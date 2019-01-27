@@ -3,6 +3,8 @@
   cd /etc/hadoop/conf
   vi hdfs-site.xml
 
+<!-- Default replication factor of a file. -->
+
   <property>
      <name>dfs.replication</name>
      <value>2</value>
