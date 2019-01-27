@@ -1,0 +1,10 @@
+<!-- Default block-size of a file in hdfs. -->
+  
+  cd /etc/hadoop/conf
+  vi hdfs-site.xml
+  
+  <property>
+    <name>dfs.block.size<name> 
+    <value>134217728<value> 
+    <description>Block size<description> 
+  <property>
