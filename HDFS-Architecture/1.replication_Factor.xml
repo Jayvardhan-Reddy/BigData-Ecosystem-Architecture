@@ -12,3 +12,10 @@
      <name>dfs.replication.max</name>
      <value>50</value>
   </property>
+
+<!-- To set replication factor via hadoop shell. -->
+
+<!-- Replication factor on a per-file basis. -->
+  hdfs dfs –setrep –w 3 /my/file
+<!-- Replication factor of all the files under a directory. -->
+  hdfs dfs –setrep –w 3 -R /my/dir
