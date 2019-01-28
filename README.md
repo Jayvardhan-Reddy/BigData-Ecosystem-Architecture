@@ -63,6 +63,36 @@ Please click on the link below to know the execution and flow process
 
 ## 4. SPARK :boom:
 
+The various phases involved before and during the execution of a spark job.
+
+- Yarn resource allocation & launching of executors (containers) on executing a job.
+
+- Setting up environment variables, job resources.
+
+- Spark Context
+  - It is the heart of spark application.
+
+- Spark Listener Events
+  - LiveListenerBus
+  - JobProgressListener
+  - Create Spark WebUI
+
+- Netty-based RPC - To communicate between worker nodes, driver (spark context), executors.
+
+- Event Sources
+  - DAG Scheduler
+  - TaskSchedulerImpl
+  - SchedulerBackend : CourseGrainedSchedulerBackend
+  - Executors
+
+- Execution Plan
+  - Logical Plan (Lineage)
+  - Physical Plan (Stages)
+
+Please click on the link below to know the execution and flow process
+
+## 4.1 SPARK Abstraction Layers & Internal Optimization Techniques used :boom:
+
 It has 3 different variants as part of it.
 
 - RDD (Resilient Distributed Datasets)
