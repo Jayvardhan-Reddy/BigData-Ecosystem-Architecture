@@ -65,29 +65,25 @@ Please click on the link below to know the execution and flow process
 
 The various phases involved before and during the execution of a spark job.
 
-- Yarn resource allocation & launching of executors (containers) on executing a job.
-
-- Setting up environment variables, job resources.
-
 - Spark Context
   - It is the heart of spark application.
 
-- Spark Listener Events
+- Yarn Resource Manager, Application Master & launching of executors (containers).
+
+- Setting up environment variables, job resources.
+
+- CoarseGrainedExecutorBackend & Netty-based RPC.
+
+- SparkListeners.
   - LiveListenerBus
-  - JobProgressListener
-  - Create Spark WebUI
+  - StatsReportListener
+  - EventLoggingListener
 
-- Netty-based RPC - To communicate between worker nodes, driver (spark context), executors.
-
-- Event Sources
-  - DAG Scheduler
-  - TaskSchedulerImpl
-  - SchedulerBackend : CourseGrainedSchedulerBackend
-  - Executors
-
-- Execution Plan
+- Execution of a job
   - Logical Plan (Lineage)
-  - Physical Plan (Stages)
+  - Physical Plan (DAG)
+
+- Spark-WebUI.
 
 Please click on the link below to know the execution and flow process
 
@@ -96,12 +92,12 @@ Please click on the link below to know the execution and flow process
 It has 3 different variants as part of it.
 
 - RDD (Resilient Distributed Datasets)
+  - Lineage Graph
   - DAG Scheduler
-  - Logical Plan (Lineage)
-  - Physical Plan (Stages)
   
 - DataFrames
   - Tungsten Engine
   - Default source or Base relation
   
 - Datasets
+  - Optimized Tungsten Engine
