@@ -27,6 +27,8 @@ The various underlying process that takes place during the storage of a file int
 
 Please click on the link below to know the execution and flow process
 
+:link: [HDFS Architecture in Depth](https://www.linkedin.com/pulse/hdfs-architecture-depth-jayvardhan-reddy-vanchireddy/)
+
 ## 2. SQOOP :octocat:
 
 Used to perform 2 main operations.
