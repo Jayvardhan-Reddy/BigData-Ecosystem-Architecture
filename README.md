@@ -47,6 +47,8 @@ To support the above two operations internally a CodeGen is used.
 
 Please click on the link below to know the execution and flow process
 
+:link: [SQOOP Architecture in Depth](https://medium.freecodecamp.org/an-in-depth-introduction-to-sqoop-architecture-ad4ae0532583)
+
 ## 3. HIVE :honeybee:
 
 It has mainly 4 components
