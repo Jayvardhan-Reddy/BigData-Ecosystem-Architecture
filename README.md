@@ -63,7 +63,7 @@ It has mainly 4 components
 
 Please click on the link below to know the execution and flow process
 
-:link: [Hive Architecture in Depth](https://www.linkedin.com/pulse/hive-architecture-indepth-jayvardhan-reddy-vanchireddy/)
+:link: [HIVE Architecture in Depth](https://www.linkedin.com/pulse/hive-architecture-indepth-jayvardhan-reddy-vanchireddy/)
 
 ## 4. SPARK :boom:
 
@@ -90,6 +90,8 @@ The various phases involved before and during the execution of a spark job.
 - Spark-WebUI.
 
 Please click on the link below to know the execution and flow process
+
+:link: [SPARK Architecture in Depth](https://www.linkedin.com/pulse/deep-dive-spark-internals-architecture-jayvardhan-reddy-vanchireddy/)
 
 ## 4.1 SPARK Abstraction Layers & Internal Optimization Techniques used :boom:
 
