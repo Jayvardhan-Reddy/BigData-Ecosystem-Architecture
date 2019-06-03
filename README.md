@@ -102,6 +102,7 @@ It has 3 different variants as part of it.
   - DAG Scheduler
   
 - DataFrames
+  - Catalyst Optimizer
   - Tungsten Engine
   - Default source or Base relation
   
