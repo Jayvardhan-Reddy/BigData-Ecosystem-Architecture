@@ -107,7 +107,8 @@ It has 3 different variants as part of it.
   - Default source or Base relation
   
 - Datasets
-  - Optimized Tungsten Engine
+  - Optimized Tungsten Engine - V2
+  - Whole Stage Code Generation
 
 ## 5. HBASE :whale2:
 
